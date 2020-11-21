@@ -1,0 +1,45 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    background-color: #613030;
+    height: 100vh;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+}
+
+.nav-btn {
+    color: #C7C7E2;
+    border: 0 0 0;
+    width: 10vw;
+}
+
+.nav-btn:hover {
+    color: #E6E6F2;
+    cursor: pointer;
+}
+
+.nav-btn:active {
+    color: #D8D8E8;
+    cursor: pointer;
+}
+
+.function-bar {
+    width: 20vw;
+    background-color: #AD5A5A;
+}
+
+.image-placement {
+    background-color: #E1C4C4;
+}
